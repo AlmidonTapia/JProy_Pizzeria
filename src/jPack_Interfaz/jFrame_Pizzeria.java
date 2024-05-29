@@ -33,6 +33,7 @@ public class jFrame_Pizzeria extends javax.swing.JFrame {
         
         initComponents();
         jTextField_NumeroCliente.setVisible(false);
+        System.out.println("Cargando Sistema...");
         NumeroPedidos = new ArrayList<>();
         Nombres = new ArrayList<>();
         Apellidos = new ArrayList<>();
